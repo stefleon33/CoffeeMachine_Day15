@@ -44,6 +44,16 @@ def current_resources():
             unit = ""
         print(f"{resource.capitalize()}: {amount}{unit}")
 
+# TODO 5: Process coins.
+def payment():
+    """Function to collect payment from the customer"""
+    quarters = int(input("How many quarters? "))
+    dimes = int(input("How many dimes? "))
+    nickles = int(input("How many nickles? "))
+    pennies = int(input("How many pennies? "))
+    total = (quarters * 0.25) + (dimes * 0.10) + (nickles * 0.05) + (pennies * 0.01)
+    print(total)
+
 coffe_machine_on = True
 while coffe_machine_on is True:
     # TODO 1: Prompt user by asking “What would you like? (espresso/latte/cappuccino):”
@@ -57,9 +67,9 @@ while coffe_machine_on is True:
         current_resources()
         continue
     else:
-        print("Thank you!")
+        print("Please insert coins.")
+        payment()
 
 # TODO 4: Check resources sufficient?
-# TODO 5: Process coins.
 # TODO 6: Check transaction successful?
 # TODO 7: Make Coffee
