@@ -30,10 +30,18 @@ resources = {
     "coffee": 100,
 }
 # TODO 3: Print report showing the current resource values when user writes "report". (Water ml, Milk ml, Coffee g, Money $)
-def currentResources():
-    for key in resources:
-        print(key)
-        print(resources[key])
+"""Function to print the current resources in the machine with units"""
+def current_resources():
+    for resource, amount in resources.items():
+        if resource == "water":
+            unit = "ml"
+        elif resource == "milk":
+            unit = "ml"
+        elif resource == "coffee":
+            unit = "g"
+        else:
+            unit = ""
+        print(f"{resource.capitalize()}: {amount}{unit}")
 
 currentResources()
 # TODO 1: Prompt user by asking “What would you like? (espresso/latte/cappuccino):”
