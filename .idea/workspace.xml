@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e034cd-c144-407d-adcd-0a7f13d79cd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CoffeeMachine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="a0e034cd-c144-407d-adcd-0a7f13d79cd8" name="Changes" comment="Initial commit for coffee machine project. &#10;&#10;TODOs written based on the given requirements" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +13,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/stefleon33/CoffeeMachine_Day15.git",
+    "accountId": "ccc0b4e4-bc0d-4245-83d8-13ecb1353f14"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
@@ -52,6 +51,19 @@
       <option name="presentableId" value="Default" />
       <updated>1742238527057</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit for coffee machine project. &#10;&#10;TODOs written based on the given requirements">
+      <option name="closed" value="true" />
+      <created>1742265626736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742265626736</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit for coffee machine project. &#10;&#10;TODOs written based on the given requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for coffee machine project. &#10;&#10;TODOs written based on the given requirements" />
   </component>
 </project>
