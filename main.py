@@ -29,6 +29,7 @@ resources = {
     "milk": 200,
     "coffee": 100,
 }
+
 # TODO 3: Print report showing the current resource values when user writes "report". (Water ml, Milk ml, Coffee g, Money $)
 """Function to print the current resources in the machine with units"""
 def current_resources():
@@ -43,16 +44,18 @@ def current_resources():
             unit = ""
         print(f"{resource.capitalize()}: {amount}{unit}")
 
-currentResources()
-# TODO 1: Prompt user by asking “What would you like? (espresso/latte/cappuccino):”
-order = input("What would you like? (espresso/latte/cappuccino): ").lower
-# TODO 2: Turn off the Coffee Machine by entering “off” to the prompt. (code should end)
-while True:
+coffe_machine_on = True
+while coffe_machine_on is True:
+    # TODO 1: Prompt user by asking “What would you like? (espresso/latte/cappuccino):”
+    order = input("What would you like? (espresso/latte/cappuccino): ").lower()
+
+    # TODO 2: Turn off the Coffee Machine by entering “off” to the prompt. (code should end)
     if order == "off":
         print("Good bye!")
-        break
+        coffe_machine_on = False
     elif order == "report":
-        print(currentResources)
+        current_resources()
+        continue
     else:
         print("Thank you!")
 
