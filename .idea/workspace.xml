@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0e034cd-c144-407d-adcd-0a7f13d79cd8" name="Changes" comment="while statement to keep the coffee machine on and if statements for the order result">
+    <list default="true" id="a0e034cd-c144-407d-adcd-0a7f13d79cd8" name="Changes" comment="Function to collect payment from the customer and called in the if statement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -16,21 +16,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "stefleon33"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;stefleon33&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/stefleon33/CoffeeMachine_Day15.git",
-    "accountId": "ccc0b4e4-bc0d-4245-83d8-13ecb1353f14"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/stefleon33/CoffeeMachine_Day15.git&quot;,
+    &quot;accountId&quot;: &quot;ccc0b4e4-bc0d-4245-83d8-13ecb1353f14&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2uSOUma8UVNLfzHv50ypbk1ZS2l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,6 +41,7 @@
   "keyToString": {
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
@@ -92,13 +93,22 @@
       <option name="project" value="LOCAL" />
       <updated>1742269062476</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Function to collect payment from the customer and called in the if statement">
+      <option name="closed" value="true" />
+      <created>1742269757652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742269757652</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for coffee machine project. &#10;&#10;TODOs written based on the given requirements" />
     <MESSAGE value="Function to print current resources in the machine" />
     <MESSAGE value="while statement to keep the coffee machine on and if statements for the order result" />
-    <option name="LAST_COMMIT_MESSAGE" value="while statement to keep the coffee machine on and if statements for the order result" />
+    <MESSAGE value="Function to collect payment from the customer and called in the if statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Function to collect payment from the customer and called in the if statement" />
   </component>
 </project>
